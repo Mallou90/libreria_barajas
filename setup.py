@@ -13,7 +13,7 @@ setup(
     description="Una librería de barajas de cartas para Python",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/tu-usuario/proyecto_barajas",
+    url="https://github.com/Mallou90/proyecto_barajas",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
