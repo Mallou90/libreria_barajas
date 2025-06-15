@@ -118,3 +118,10 @@ print(f"Cartas después de reiniciar: {baraja.cantidad_cartas}")  # 52
 ```bash
 python -m unittest tests/test_baraja_española.py
 ```
+
+## Buenas Prácticas Implementadas
+
+1. **Programación Orientada a Objetos**: Uso de herencia y clases abstractas
+2. **Documentación**: Docstrings detallados para clases y métodos
+3. **Pruebas**: Cobertura completa de pruebas unitarias
+4. **Código Limpio**: Nombres descriptivos y estructura clara
