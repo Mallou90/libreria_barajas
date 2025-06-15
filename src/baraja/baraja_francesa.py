@@ -39,7 +39,7 @@ class BarajaFrancesa(Baraja):
     def reiniciar(self):
         '''Reinicia la baraja con las cartas originales ordenadas.'''
         palos = ["oros", "copas", "espadas", "bastos"]
-        numeros = list(range(1, 8)) + list(range(10, 13))
+        numeros = list(range(1, 11)) + ["J", "Q", "K"]  
         self.cartas = [f"{numero} de {palo}" for palo in palos for numero in numeros]
 
     def sacar_varias_cartas(self, cantidad=2):
